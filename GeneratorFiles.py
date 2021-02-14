@@ -6,7 +6,7 @@ EnterNameFolder = str(input(" Folder Name : "))
 EnterNameFile= str(input(" Enter Your File Name : "))
 EnterTypeFile = str(input(" Enter Type File : "))
 
-""" // Create a file in the specified path ""
+""" // Create a file in the specified path """
 def CreatePath(dirfile , namefolder ):
     """ : Here will create the folder & file """
     path = os.path.join(dirfile, namefolder)
