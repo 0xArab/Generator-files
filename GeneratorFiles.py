@@ -18,10 +18,6 @@ def SaveFiles(Number , NameFolder , Path):
         filename = str(EnterNameFile) + "." + str(Loop) + "." + EnterTypeFile 
         with open(os.path.join(Path + str("\\") + EnterNameFolder , filename), 'a+') as temp_file:
             temp_file.write(EnterNameFile)
-
-
-# 
-# 
 Paths = []
 def SaveFolder(Number_folders , Name_folders , Path): 
     global Paths
